@@ -18,6 +18,10 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["app", "components", "lib"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true
+  }
 }
