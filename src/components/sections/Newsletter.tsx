@@ -70,7 +70,7 @@ export function Newsletter() {
           )}
 
           <p className="text-xs text-muted-foreground">
-            No spam. Unsubscribe anytime. Read by 1,000+ engineers.
+            No spam. Unsubscribe anytime. Just signal.
           </p>
         </div>
       </div>
