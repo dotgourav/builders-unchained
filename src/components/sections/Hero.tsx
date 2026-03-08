@@ -65,28 +65,7 @@ export function Hero() {
               </p>
             </div>
 
-            {/* Community values */}
-            <div className="grid grid-cols-3 gap-3">
-              {[
-                {
-                  title: "Real AI Workflows",
-                  desc: "Practical workflows from engineers building with AI — prompts, tools, configs, and what actually works.",
-                },
-                {
-                  title: "Builders Who Ship",
-                  desc: "A focused community of engineers experimenting, sharing, and building real AI-powered software.",
-                },
-                {
-                  title: "Signal Over Noise",
-                  desc: "No hype cycles or AI news spam. Just honest breakdowns, experiments, and useful discussions.",
-                },
-              ].map((card) => (
-                <div key={card.title} className="rounded-lg border border-border bg-card/50 px-3 py-3 space-y-1">
-                  <div className="text-xs font-semibold text-indigo-400">{card.title}</div>
-                  <div className="text-xs text-muted-foreground leading-relaxed">{card.desc}</div>
-                </div>
-              ))}
-            </div>
+
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-3">
