@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, MessageSquare, Terminal, Zap } from "lucide-react"
 
-const DISCORD_URL = "https://discord.gg/builders-unchained"
+const DISCORD_URL = "https://discord.gg/3n9nF9G3hZ"
 
 function CodeBlock() {
   return (

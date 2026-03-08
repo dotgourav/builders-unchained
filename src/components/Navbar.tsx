@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { MessageSquare } from "lucide-react"
 
-const DISCORD_URL = "https://discord.gg/builders-unchained"
+const DISCORD_URL = "https://discord.gg/3n9nF9G3hZ"
 
 export function Navbar() {
   return (

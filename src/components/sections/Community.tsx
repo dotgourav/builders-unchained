@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"
 import { MessageSquare, CheckCircle, ArrowRight, Hash, Users, Volume2 } from "lucide-react"
 
-const DISCORD_URL = "https://discord.gg/builders-unchained"
+const DISCORD_URL = "https://discord.gg/3n9nF9G3hZ"
 
 const benefits = [
   "Deep-dive discussions on AI tools, models, and architectures",
