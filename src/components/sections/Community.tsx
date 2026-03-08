@@ -40,7 +40,7 @@ export function Community() {
                 <span className="gradient-text">by builders</span>
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Not a newsletter comment section. Not a Discord with 50k lurkers. A focused community of engineers who are actively building with AI.
+                Not a newsletter comment section. Not a Discord full of lurkers. A focused community of engineers who are actively building with AI.
               </p>
             </div>
 

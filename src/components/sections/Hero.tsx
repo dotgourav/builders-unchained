@@ -26,7 +26,7 @@ function CodeBlock() {
           </div>
           <div className="text-green-400">✓ Community joined</div>
           <div className="text-muted-foreground">→ Loading AI workflows...</div>
-          <div className="text-muted-foreground">→ Connecting to 500+ builders...</div>
+          <div className="text-muted-foreground">→ Connecting to builders...</div>
           <div className="text-purple-400">✓ You're unchained.</div>
           <div className="flex items-center gap-1 mt-2">
             <span className="text-muted-foreground">$ </span>

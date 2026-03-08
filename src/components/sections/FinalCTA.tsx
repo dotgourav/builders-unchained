@@ -53,7 +53,7 @@ export function FinalCTA() {
           </div>
 
           <p className="text-sm text-muted-foreground">
-            500+ engineers. Zero noise policy.
+            Engineers. Zero noise policy.
           </p>
         </div>
       </div>
