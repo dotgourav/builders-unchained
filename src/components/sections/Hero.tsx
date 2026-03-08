@@ -54,10 +54,11 @@ export function Hero() {
                 AI-native developer community
               </Badge>
               <h1 className="text-5xl lg:text-7xl font-bold tracking-tight leading-tight">
-                AI is{" "}
-                <span className="gradient-text">Unchaining</span>
+                Learn Together.
                 <br />
-                Builders
+                <span className="gradient-text">Build With AI.</span>
+                <br />
+                Iterate Faster.
               </h1>
               <p className="text-xl text-muted-foreground max-w-md leading-relaxed">
                 The community for engineers building with AI — real workflows, honest breakdowns, and builders who ship.
