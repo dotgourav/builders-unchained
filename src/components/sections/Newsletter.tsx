@@ -38,36 +38,19 @@ export function Newsletter() {
             </p>
           </div>
 
-          {submitted ? (
-            <div className="flex flex-col items-center gap-3 py-8">
-              <div className="w-12 h-12 rounded-full bg-green-500/10 border border-green-500/30 flex items-center justify-center">
-                <CheckCircle className="w-6 h-6 text-green-400" />
-              </div>
-              <p className="text-foreground font-medium">You're in. Check your inbox.</p>
-              <p className="text-muted-foreground text-sm">Next issue drops this week.</p>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-              <Input
-                type="email"
-                placeholder="you@company.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                className="h-12 text-base flex-1"
-              />
-              <Button type="submit" size="lg" disabled={loading} className="group shrink-0">
-                {loading ? (
-                  "Subscribing..."
-                ) : (
-                  <>
-                    Subscribe
-                    <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
-                  </>
-                )}
-              </Button>
-            </form>
-          )}
+          <div className="flex flex-col items-center gap-3 py-8">
+            <Button
+              size="lg"
+              asChild
+              className="group"
+            >
+              <a href="https://open.substack.com/pub/buildersunchained" target="_blank" rel="noopener noreferrer">
+                Subscribe on Substack
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
+              </a>
+            </Button>
+            <p className="text-muted-foreground text-sm">Join the signal. No spam, just builders.</p>
+          </div>
 
           <p className="text-xs text-muted-foreground">
             No spam. Unsubscribe anytime. Just signal.
