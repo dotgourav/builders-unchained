@@ -1,23 +1,8 @@
-import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { Mail, ArrowRight, CheckCircle } from "lucide-react"
+import { Mail, ArrowRight } from "lucide-react"
 
 export function Newsletter() {
-  const [email, setEmail] = useState("")
-  const [submitted, setSubmitted] = useState(false)
-  const [loading, setLoading] = useState(false)
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    if (!email) return
-    setLoading(true)
-    // Simulate API call
-    await new Promise((r) => setTimeout(r, 800))
-    setSubmitted(true)
-    setLoading(false)
-  }
 
   return (
     <section id="newsletter" className="py-24 lg:py-32 relative">
